@@ -108,8 +108,8 @@ public class UserController {
         return "login";
     }
 
-//    public static void main(String[] args) {
-//        String newPsd = new Md5Hash("12345","11299c42bf954c0abb373efbae3f6b26").toString();
-//        System.out.println(newPsd);
-//    }
+    public static void main(String[] args) {
+        String newPsd = new Md5Hash("12345","11299c42bf954c0abb373efbae3f6b26").toString();
+        System.out.println(newPsd);
+    }
 }
