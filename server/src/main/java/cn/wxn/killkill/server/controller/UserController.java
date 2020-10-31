@@ -108,6 +108,7 @@ public class UserController {
         return "login";
     }
 
+    // 根据此设置数据库中原始用户密码（经MD5加密后）
     public static void main(String[] args) {
         String newPsd = new Md5Hash("12345","11299c42bf954c0abb373efbae3f6b26").toString();
         System.out.println(newPsd);
