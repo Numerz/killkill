@@ -6,6 +6,7 @@
 
 ## 用户名和密码
 debug用户密码为:12345  
+
 可通过UserController中的main函数手动生成md5加密后的密码，salt在server/src/main/resources/application.properties中的shiro.encrypt.password.salt属性
 
 
@@ -19,5 +20,5 @@ debug用户密码为:12345
 server/src/test/java/PostSender 使用多线程并发发送post请求（未用线程池）
 
 注意:  
-1.修改URL及线程数
+1.修改URL及线程数  
 2.线程数≠实际并发数
